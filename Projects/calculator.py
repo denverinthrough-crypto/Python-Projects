@@ -71,7 +71,7 @@ def clear_history():
             f.write('')
 
 def toggle_dark_mode():
-       if root['big'] == 'white':
+       if root['bg'] == 'white':
             root.configure(bg='black')
             entry.configure(bg='gray20', fg='white')
             history.configure(bg='gray20', fg='white')
